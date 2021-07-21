@@ -1,0 +1,17 @@
+ body {
+   height: auto;
+   background: #191765;
+ }
+
+ section {
+   min-height: 950px;
+   height: auto;
+ }
+
+ h1, .h3-color {
+   color: #9390FF;
+ }
+
+ /* .h3-color{
+  color: #9390FF;
+} */
