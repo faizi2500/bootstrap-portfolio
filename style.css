@@ -21,3 +21,11 @@
  /* .h3-color{
   color: #9390FF;
 } */
+
+.card-body{
+  min-height: 375px;
+}
+
+.img-project{
+  max-height: 448px;
+}
