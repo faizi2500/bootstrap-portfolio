@@ -8,9 +8,15 @@
    height: auto;
  }
 
- h1, .h3-color {
+ h1, .h3-color, .h2-color{
    color: #9390FF;
  }
+
+ /* .project-section {
+   min-height: 500px;
+   background-color: antiquewhite;
+   
+ } */
 
  /* .h3-color{
   color: #9390FF;
