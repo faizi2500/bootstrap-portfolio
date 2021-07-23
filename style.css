@@ -1,10 +1,10 @@
  body {
-   height: auto;
+   /* height: auto; */
    background: #191765;
  }
 
  section {
-   min-height: 950px;
+   min-height: 750px;
    height: auto;
  }
 

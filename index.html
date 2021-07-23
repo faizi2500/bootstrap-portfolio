@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Set-up with BootStrap</title>
   </head>
-  <body>
-    <header class="container bg-transparent fixed-top mx-auto">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header class="container mx-auto ">
 
       <div class="row">
 
@@ -23,13 +23,13 @@
         </div>
 
         <div class="col-md-3">
-          <nav class="navbar navbar-expand-md justify-content-end">
+          <nav class="navbar navbar-expand-md justify-content-end navbar-dark fixed-top">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Portfolio</a>
+                <a class="nav-link" href="#section1">About</a>
               </li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">About</a></li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#section2">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#section3">Contact</a></li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <img src="images/Union.png" alt="Email Icon" />
@@ -42,7 +42,7 @@
     </header>
 
     <section class="d-flex flex-column align-items-center w-75 mx-auto
-      justify-content-center pt-5">
+      justify-content-center pt-5" id="section1">
 
       <div>
         <h1 class="display-1 fw-bolder">Faizan Zahid</h1>
@@ -114,7 +114,7 @@
       <!-- <img class="float-left mw-25 mh-25 mt-5 ml-5" src="images/circle 1 header.png" alt="Rounded Background Circle"> -->
     </section>
 
-    <section class="container">
+    <section class="container mt-5" id="section2">
       <h2 class="fs-1 fw-bolder h2-color">My Recent Works</h2>
       <div class="w-100 mt-5">
         <hr class="bg-light">
@@ -187,6 +187,8 @@
               </div>
             </div>
           </div>
+        </div>
+        </div>
         </div>
         <!-- the second project -->
         <div class="row project-section my-5">
@@ -323,7 +325,7 @@
 
       </section>
 
-      <section class="container mt-5 pt-5">
+      <section class="container mt-5 pt-5" id="section3">
         <h2 class="fs-1 fw-bolder h2-color text-center">Let’s chat!</h2>
         <p class="w-50 mx-auto text-center text-light my-5">If you have an
           application you are interested in developing, a feature that you need
