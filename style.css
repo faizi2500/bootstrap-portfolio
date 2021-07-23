@@ -1,32 +1,23 @@
- body {
-   /* height: auto; */
-   background: #191765;
- }
-
- section {
-   min-height: 750px;
-   height: auto;
- }
-
- h1, .h3-color, .h2-color{
-   color: #9390FF;
- }
-
- /* .project-section {
-   min-height: 500px;
-   background-color: antiquewhite;
-   
- } */
-
- /* .h3-color{
-  color: #9390FF;
-} */
-
-.card-body{
-  /* min-height: 375px; */
+body {
+  background: #191765;
 }
 
-.img-project{
+section {
+  min-height: 750px;
+  height: auto;
+}
+
+h1,
+.h3-color,
+.h2-color {
+  color: #9390ff;
+}
+
+li h3 {
+  color: #9390ff;
+}
+
+.img-project {
   max-height: 448px;
 }
 
