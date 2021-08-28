@@ -1,0 +1,26 @@
+body {
+  background: #191765;
+}
+
+section {
+  min-height: 750px;
+  height: auto;
+}
+
+h1,
+.h3-color,
+.h2-color {
+  color: #9390ff;
+}
+
+li h3 {
+  color: #9390ff;
+}
+
+.img-project {
+  max-height: 448px;
+}
+
+.btn-color {
+  background-color: #9390ff;
+}
